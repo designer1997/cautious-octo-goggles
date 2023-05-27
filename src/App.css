@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainGrid {
+  justify-content: center;
+  display: flex;
+  border: 1px gray red;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 600px;
+  flex-direction: 'column';
+  width: 100%;
+  margin: 2;
+}
+.containerGrid {
+  margin-top: 80px;
 }
